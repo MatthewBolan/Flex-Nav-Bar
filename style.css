@@ -1,0 +1,40 @@
+body{
+    width: 2000px;
+}
+.nav{
+    background-color:#333333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 2000px;
+    margin-right: 0px;
+    color: white;
+}
+h1{
+    transform: scale(1.5);
+    margin-left: 50px;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    transform: scale(1.5);
+    width: 25%;
+    justify-content: space-evenly;
+    margin-right: 100px;
+}
+a{
+    color:#d9d9d9;
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+}
+.btn{
+    background-color:#17a2b8 ;
+    color: white;
+    border: solid 1px black;
+    box-shadow: black 2px 2px;
+    transform: scale(1.4);
+    margin-right: 20px;
+}
